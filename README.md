@@ -8,6 +8,8 @@ Azure functions for indexing employees from FINT then add to queue.
 {
   "isEncrypted": false,
   "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNTIONS_WORKER_RUNTIME": "node",
     "FINT_AUTH_URL": "",
     "FINT_CLIENT_ID": "",
     "FINT_CLIENT_SECRET": "",
