@@ -31,6 +31,6 @@ module.exports = async context => {
     }))
     context.log(JSON.stringify(employees, null, 2))
   } catch (error) {
-    context.error(error)
+    context.log.error(error)
   }
 }
