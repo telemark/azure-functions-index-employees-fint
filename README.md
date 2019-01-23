@@ -19,6 +19,27 @@ Azure functions for indexing employees from FINT then add to queue.
 }
 ```
 
+## Install
+
+With nvm
+
+```bash
+nvm install 8.11.1
+nvm exec 8 <command>
+```
+
+Install extentions
+
+```bash
+func extentions install
+```
+
+To run locally
+
+```bash
+func start
+```
+
 # License
 
 [MIT](LICENSE)

@@ -11,6 +11,9 @@
     "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "keywords": [
     "azure",
     "search",
